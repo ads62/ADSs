@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ADS | Agência Digital & Sites</title>
+<meta name="description" content="A ADS projeta e constrói sites comerciais para negócios reais — pensados para converter visita em contato.">
+<meta property="og:title" content="ADS | Agência Digital & Sites">
+<meta property="og:description" content="Sites com estratégia de agência, não de gerador automático.">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="hbar">
+    <a class="brand" href="#top" aria-label="ADS"><img id="brandImg" src="assets/img/lockup-dark.png" alt="ADS | Agência Digital & Sites"></a>
+    <nav class="links">
+      <a href="#servicos" data-i18n="nav.services">Serviços</a>
+      <a href="#projetos" data-i18n="nav.projects">Projetos</a>
+      <a href="#sobre" data-i18n="nav.about">Sobre</a>
+      <a href="#contato" data-i18n="nav.contact">Contato</a>
+    </nav>
+    <div class="htools">
+      <select id="langSel" aria-label="Idioma">
+        <option value="pt">PT</option><option value="en">EN</option><option value="es">ES</option>
+      </select>
+      <button class="icon-btn" id="themeBtn" aria-label="Alternar tema">🌙</button>
+      <a class="btn btn-line" href="https://wa.me/5535988284531" target="_blank" rel="noopener" data-i18n="nav.cta" id="headerCta">Falar com a ADS</a>
+      <button class="burger" id="burgerBtn" aria-label="Menu">☰</button>
+    </div>
+  </div>
+  <div id="mobileNav">
+    <a href="#servicos" data-i18n="nav.services">Serviços</a>
+    <a href="#projetos" data-i18n="nav.projects">Projetos</a>
+    <a href="#sobre" data-i18n="nav.about">Sobre</a>
+    <a href="#contato" data-i18n="nav.contact">Contato</a>
+    <a class="btn btn-primary" style="margin-top:14px;justify-content:center" href="https://wa.me/5535988284531" target="_blank" rel="noopener" data-i18n="nav.cta">Falar com a ADS</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <span class="hero-ghost" aria-hidden="true">ADS</span>
+  <div class="hero-diag" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow" data-i18n="hero.eyebrow">Agência Digital & Sites</div>
+      <h1 class="hero-t" data-i18n="hero.title">Sites com estratégia de agência, não de gerador automático.</h1>
+      <p class="hero-p" data-i18n="hero.sub">A ADS projeta e constrói sites comerciais para negócios reais — pensados para converter visita em contato.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/5535988284531" target="_blank" rel="noopener" data-i18n="hero.cta">Falar com a ADS</a>
+        <a class="btn btn-line" href="#projetos" data-i18n="hero.cta2">Ver portfólio</a>
+      </div>
+    </div>
+    <div class="hero-visual"><img id="heroMark" src="assets/img/icon-dark.png" alt=""></div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Sites institucionais</span><span>·</span><span>Sites comerciais</span><span>·</span><span>Landing pages</span><span>·</span><span>Lojas virtuais</span><span>·</span><span>Sistemas web</span><span>·</span><span>Painéis administrativos</span><span>·</span>
+    <span>Sites institucionais</span><span>·</span><span>Sites comerciais</span><span>·</span><span>Landing pages</span><span>·</span><span>Lojas virtuais</span><span>·</span><span>Sistemas web</span><span>·</span><span>Painéis administrativos</span><span>·</span>
+  </div>
+</div>
+
+<section id="projetos">
+  <div class="wrap">
+    <div class="sec-top">
+      <div><div class="eyebrow" data-i18n="pf.eyebrow">Portfólio</div><h2 data-i18n="pf.title">Projetos entregues, no ar agora</h2></div>
+      <div></div>
+    </div>
+    <div id="pfList"></div>
+  </div>
+</section>
+
+<section id="servicos">
+  <div class="wrap">
+    <div class="sec-top">
+      <div><div class="eyebrow" data-i18n="sv.eyebrow">Serviços</div><h2 data-i18n="sv.title">O que a ADS faz</h2></div>
+      <div></div>
+    </div>
+    <p class="sv-note" data-i18n="sv.note">A ADS não trabalha só com sites simples — construímos desde a presença institucional até plataformas web sob medida.</p>
+    <div class="sv-list">
+      <div class="sv-row"><span class="num">01</span><h3 data-i18n="sv.t1">Sites institucionais</h3><p data-i18n="sv.d1">Presença online completa para apresentar sua empresa.</p></div>
+      <div class="sv-row"><span class="num">02</span><h3 data-i18n="sv.t2">Sites comerciais</h3><p data-i18n="sv.d2">Páginas de venda pensadas para gerar contato e conversão.</p></div>
+      <div class="sv-row"><span class="num">03</span><h3 data-i18n="sv.t3">Landing pages</h3><p data-i18n="sv.d3">Páginas focadas em converter visitantes em contatos.</p></div>
+      <div class="sv-row"><span class="num">04</span><h3 data-i18n="sv.t4">Lojas virtuais</h3><p data-i18n="sv.d4">E-commerce estruturado para vender online.</p></div>
+      <div class="sv-row"><span class="num">05</span><h3 data-i18n="sv.t5">Sistemas e plataformas web</h3><p data-i18n="sv.d5">Soluções web sob medida além do site tradicional.</p></div>
+      <div class="sv-row"><span class="num">06</span><h3 data-i18n="sv.t6">Painéis administrativos</h3><p data-i18n="sv.d6">Áreas internas para gerenciar conteúdo, pedidos ou dados.</p></div>
+      <div class="sv-row"><span class="num">07</span><h3 data-i18n="sv.t7">Soluções personalizadas</h3><p data-i18n="sv.d7">Projetos web mais complexos, adaptados à necessidade do negócio.</p></div>
+      <div class="sv-row"><span class="num">08</span><h3 data-i18n="sv.t8">Manutenção e suporte</h3><p data-i18n="sv.d8">Atualizações e suporte contínuo depois que o projeto vai ao ar.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="diferenciais">
+  <div class="wrap">
+    <div class="sec-top">
+      <div><div class="eyebrow" data-i18n="df.eyebrow">Diferenciais</div><h2 data-i18n="df.title">Por que fechar com a ADS</h2></div>
+      <div></div>
+    </div>
+    <div class="df-band">
+      <div class="df-row"><span class="num">01</span><h3 data-i18n="df.t1">Atendimento direto</h3><p data-i18n="df.d1">Você fala com quem faz o site, sem intermediários.</p></div>
+      <div class="df-row"><span class="num">02</span><h3 data-i18n="df.t2">Projeto sob medida</h3><p data-i18n="df.d2">Cada site é pensado para o negócio específico do cliente.</p></div>
+      <div class="df-row"><span class="num">03</span><h3 data-i18n="df.t3">Foco comercial</h3><p data-i18n="df.d3">O objetivo do site é gerar contato, não só existir.</p></div>
+      <div class="df-row"><span class="num">04</span><h3 data-i18n="df.t4">Suporte depois da entrega</h3><p data-i18n="df.d4">O trabalho não termina quando o site vai ao ar.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="wrap about-grid">
+    <div class="about-mark"><img src="assets/img/icon-dark.png" alt=""></div>
+    <div class="about-txt">
+      <div class="eyebrow" data-i18n="ab.eyebrow">Sobre</div>
+      <h2 style="margin-top:14px" data-i18n="ab.title">A marca por trás dos projetos</h2>
+      <p data-i18n="ab.p1">A ADS é uma agência digital criada para atender empresas que precisam de um site que realmente traga clientes.</p>
+      <p data-i18n="ab.p2">Cada projeto é acompanhado de perto, do primeiro contato até o site no ar.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-final" id="contato">
+  <div class="wrap">
+    <h2 data-i18n="cta.title">Vamos colocar seu site no ar?</h2>
+    <p data-i18n="cta.sub">Fale agora com a ADS pelo WhatsApp e conte o que você precisa.</p>
+    <a class="btn btn-primary" href="https://wa.me/5535988284531" target="_blank" rel="noopener" data-i18n="cta.btn">Quero falar com a ADS</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap f-grid">
+    <div>
+      <a class="f-brand" href="#top"><img id="footBrandImg" src="assets/img/lockup-dark.png" alt="ADS"></a>
+      <p data-i18n="foot.desc">Sites profissionais para negócios que querem vender mais.</p>
+    </div>
+    <div>
+      <h4 data-i18n="foot.nav">Navegação</h4>
+      <ul><li><a href="#servicos" data-i18n="nav.services">Serviços</a></li><li><a href="#projetos" data-i18n="nav.projects">Projetos</a></li><li><a href="#sobre" data-i18n="nav.about">Sobre</a></li></ul>
+    </div>
+    <div>
+      <h4 data-i18n="foot.contact">Contato</h4>
+      <ul><li><a href="https://wa.me/5535988284531" target="_blank" rel="noopener">WhatsApp</a></li></ul>
+    </div>
+  </div>
+  <div class="wrap f-bottom">
+    <span>© <span id="year"></span> ADS | Agência Digital & Sites</span>
+    <span data-i18n="foot.rights">Todos os direitos reservados</span>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
